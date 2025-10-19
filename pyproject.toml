@@ -1,0 +1,19 @@
+[project]
+name = "pycon-2025-sign2text"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "mediapipe>=0.10.21",
+    "opencv-python>=4.11.0.86",
+    "scikit-learn>=1.6.1",
+    "tensorflow>=2.18.1",
+    "tensorflow-io-gcs-filesystem==0.27.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13.0",
+]
